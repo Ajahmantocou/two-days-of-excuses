@@ -16,7 +16,7 @@ Why this line: the comedy sits in the gap between the machine's total confidence
 MAKEFUN_OUTPUT_DIR=./output node main.ts
 ```
 
-This writes `./output/entry.txt` with the excuse above. Run it twice and the file is byte-identical both times — no randomness, no network, no input read; the program's only job is to deliver the line exactly as written.
+This writes `./output/entry.txt` with the excuse above (without the variable it writes to `/output/entry.txt`). Run it twice and the file is byte-identical both times — no randomness, no network, no input read; the program's only job is to deliver the line exactly as written.
 
 ---
 
